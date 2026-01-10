@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ED SPENXER Gold Collections</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #000;
+  color: #d4af37;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  border-bottom: 1px solid #d4af37;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 38px;
+}
+
+header p {
+  margin: 5px 0 0;
+  letter-spacing: 2px;
+}
+
+.hero {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 34px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.btn {
+  margin-top: 25px;
+  background: linear-gradient(135deg, #d4af37, #ffd700);
+  color: #000;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.product {
+  border: 1px solid #d4af37;
+  padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>ED SPENXER</h1>
+<p>GOLD COLLECTIONS</p>
+<p><strong>Luxury Gold. Trusted Value.</strong></p>
+</header>
+
+<section class="hero">
+<h2>Premium Gold Jewelry</h2>
+<p>Authentic gold pieces available for customers worldwide.</p>
+<a class="btn" href="https://wa.me/2347025903263">Chat on WhatsApp</a>
+</section>
+
+<section class="section">
+<h2>Our Collections</h2>
+
+<div class="products">
+
+<div class="product">
+<h3>10g Cuban Chain</h3>
+<p>Luxury finish</p>
+<a class="btn" href="https://wa.me/2347025903263">Order Now</a>
+</div>
+
+<div class="product">
+<h3>Gold Pendant</h3>
+<p>Premium design</p>
+<a class="btn" href="https://wa.me/2347025903263">Order Now</a>
+</div>
+
+<div class="product">
+<h3>Gold Bracelet</h3>
+<p>Elegant & durable</p>
+<a class="btn" href="https://wa.me/2347025903263">Order Now</a>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>Worldwide Orders Available</h2>
+<p>We serve both local and international customers with trust and professionalism.</p>
+</section>
+
+<footer class="section">
+<p>© 2026 ED SPENXER Gold Collections</p>
+</footer>
+
+</body>
+</html>
